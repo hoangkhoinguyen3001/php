@@ -14,6 +14,13 @@ printf("%.1f\n", $d + $d2);
 // Concatenate and print the String variables on a new line
 // The 's' variable above should be printed first.
 print($s.$s2."\n");
+//use echo to print
+echo $i + $i2;printf("\n");
+// Print the sum of the double variables on a new line.
+echo number_format((float)$d + $d2, 1, '.', '');printf("\n");
+// Concatenate and print the String variables on a new line
+// The 's' variable above should be printed first.
+echo "$s$s2";
 fclose($handle);
 
 
