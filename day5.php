@@ -82,4 +82,15 @@ class Persond{
 
 
 }
+$T = intval(fgets(STDIN));
+for($i=0;$i<$T;$i++){
+    $age=intval(fgets(STDIN));
+    $p=new Person($age);
+    $p->amIOld();
+    for($j=0;$j<3;$j++){
+        $p->yearPasses();
+    }
+    $p->amIOld();
+    echo "\n";
 
+}
